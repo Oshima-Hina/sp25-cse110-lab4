@@ -13,7 +13,7 @@
 5.Error, result is undefined outside the if block.
 
 
-6.TypeError: Assignment to constant variable.
+6.TypeError: Assignment to constant variable. The program exit before this line.
 
 
-7.TypeError: Assignment to constant variable.
+7.TypeError: Assignment to constant variable. The program exit before this line.
