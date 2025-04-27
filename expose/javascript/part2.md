@@ -1,10 +1,10 @@
-1. 3. The variable i is declared with var, which means it has function scope, not block scope. Therefore, i is accessible even after the loop ends.In the loop, i is incremented from 0 to 2. After the loop finishes, i is incremented one last time, making it 3.
+1. 3,   The variable i is declared with var, which means it has function scope, not block scope. Therefore, i is accessible even after the loop ends.In the loop, i is incremented from 0 to 2. After the loop finishes, i is incremented one last time, making it 3.
 
 
-2. 150. discountedPrice is declared using var, which has function scope, not block scope.
+2. 150,   discountedPrice is declared using var, which has function scope, not block scope.
 
   
-3. 150. That's normal.
+3. 150,   That's normal.
 
   
 4. [50, 100, 150],the function calculates a discounted price for each item in the prices array by applying the given discount (50% off in this case).The function stores each rounded discounted price in the discounted array and returns it at the end.
@@ -16,7 +16,7 @@
 6. ReferenceError: discountedPrice is not defined. The scope of let discountedPrice is within the for loop.
 
 
-7. 150. finalprice is defined in function block.
+7. 150,  finalprice is defined in function block.
   
 
 8. [50, 100, 150],the function calculates a discounted price for each item in the prices array by applying the given discount (50% off in this case).The function stores each rounded discounted price in the discounted array and returns it at the end.
@@ -25,7 +25,7 @@
 9. ReferenceError: i is not defined. The scope of let i is within the for loop.
 
 
-10. 3. The length of [100,200,300] is 3.
+10. 3,  The length of [100,200,300] is 3.
    
 
 11. [50, 100, 150],the function calculates a discounted price for each item in the prices array by applying the given discount (50% off in this case).The function stores each rounded discounted price in the discounted array and returns it at the end.
